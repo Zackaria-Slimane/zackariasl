@@ -7,7 +7,6 @@ export default defineConfig({
 	plugins: [
 		react(),
 		VitePluginRadar({
-			// Google Analytics tag injection
 			analytics: {
 				id: "G-S363TBDWEH",
 			},
@@ -16,7 +15,7 @@ export default defineConfig({
 				cookie_expires: 63072000,
 				cookie_prefix: "none",
 				cookie_update: true,
-				cookie_flags: "",
+				cookie_flags: "SameSite=None;Secure",
 				send_page_view: true,
 				allow_google_signals: true,
 				allow_ad_personalization_signals: true,

@@ -10,7 +10,7 @@ const NotFound = () => {
 					Oops, Page does not exist
 				</h1>
 				<p className='mt-4 text-3xl font-bold tracking-tight text-navy sm:text-4xl'>
-					Looks Like You've Strayed Off the Digital Path!
+					Looks Like You have Strayed Off the Digital Path!
 				</p>
 
 				<div className='mt-10 flex items-center justify-center gap-x-6'>

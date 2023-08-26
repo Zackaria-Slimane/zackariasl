@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { useMemo } from "react";
-import Project from "./project";
+import Project from "./Project";
 import siteData from "../../data/siteData";
 import Section from "../UI/Section";
 import Toggle from "../UI/Toggle";
@@ -14,12 +14,11 @@ const AllProjects = (props) => {
 	};
 
 	let featuredProjects = siteData.projects.filter((project) => project.featured === true);
-	let projects;
 	let subtitle = isFeatured ? "Featured Projects" : "All Projects";
 
 	const getProjects = useMemo(() => {
-		return isFeatured ? (projects = featuredProjects) : (projects = siteData.projects);
-	}, [isFeatured]);
+		return isFeatured ? featuredProjects : siteData.projects;
+	}, [isFeatured, featuredProjects]);
 
 	return (
 		<Section id='projects' title='Projects' subtitle={subtitle}>

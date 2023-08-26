@@ -17,14 +17,6 @@ function App() {
 
 	const [path, setPath] = useState(location);
 
-	const updatePath = () => {
-		console.log("inside update path");
-		let newPath = useLocation().pathname;
-		console.log("new path", newPath);
-
-		setPath(location);
-	};
-
 	useEffect(() => {
 		const timer = setTimeout(() => {
 			setLoading(false);
