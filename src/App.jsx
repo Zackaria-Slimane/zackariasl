@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 import Loader from "./components/UI/Loader";
 import Homepage from "./pages/Home";
 import NavBar from "./components/UI/NavBar";
@@ -32,6 +33,7 @@ function App() {
 					<Loader loading={loading} />
 				) : (
 					<>
+						<Analytics />
 						<NavBar active={path} setPath={setPath} darkMode={darkMode} setDarkMode={setDarkMode} />
 						<main>
 							<ToTop />
