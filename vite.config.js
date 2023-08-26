@@ -1,4 +1,5 @@
 import { defineConfig } from "vite";
+import { VitePluginRadar } from "vite-plugin-radar";
 import react from "@vitejs/plugin-react-swc";
 
 // https://vitejs.dev/config/
