@@ -108,7 +108,7 @@ const siteData = {
 			tech: wordpress,
 			linkText: "View Project",
 			link: "https://beautymall.ma/",
-			featured: true,
+			featured: false,
 		},
 		{
 			id: uid(),
