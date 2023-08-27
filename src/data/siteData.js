@@ -9,6 +9,7 @@ import bm from "../assets/featured/beautymall.png";
 import taskify from "../assets/featured/taskify.png";
 import dtc from "../assets/featured/dtc.png";
 import nuxtfolio from "../assets/featured/nuxtfolio.png";
+import echelon from "../assets/featured/echelon.png";
 
 const uid = () => crypto.randomUUID();
 
@@ -67,6 +68,16 @@ const siteData = {
 			logo: coinbend,
 			linkText: "View Project",
 			link: "https://coinbend.netlify.app/",
+			featured: true,
+		},
+		{
+			id: uid(),
+			title: "Echelon - LP",
+			description: "Responsive & modern landing page for a Bank",
+			tech: react,
+			logo: echelon,
+			linkText: "View Project",
+			link: "https://echelonbank.vercel.app/",
 			featured: true,
 		},
 		{
