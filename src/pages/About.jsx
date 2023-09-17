@@ -40,36 +40,16 @@ const About = () => {
 								</div>
 
 								<motion.div
-									className='py-2 text-base text-navy w-full'
 									initial={{ opacity: 0, x: -200 }}
 									transition={{ duration: 1 }}
 									whileInView={{ opacity: 1, x: 0 }}
 									viewport={{ once: true }}>
-									{siteData.aboutPage.description}
-								</motion.div>
-								<motion.div
-									className='py-2 text-base text-navy w-full hidden sm:block'
-									initial={{ opacity: 0, x: 200 }}
-									transition={{ duration: 1 }}
-									whileInView={{ opacity: 1, x: 0 }}
-									viewport={{ once: true }}>
-									{siteData.aboutPage.why}
-								</motion.div>
-								<motion.div
-									className='py-2 text-base text-navy w-full hidden sm:block'
-									initial={{ opacity: 0, x: -200 }}
-									transition={{ duration: 1 }}
-									whileInView={{ opacity: 1, x: 0 }}
-									viewport={{ once: true }}>
-									{siteData.aboutPage.learning}
-								</motion.div>
-								<motion.div
-									className='py-2 text-base text-navy w-full'
-									initial={{ opacity: 0, x: 200 }}
-									transition={{ duration: 1 }}
-									whileInView={{ opacity: 1, x: 0 }}
-									viewport={{ once: true }}>
-									{siteData.aboutPage.skills}
+									<p className='py-2 text-base text-navy w-full'>
+										{siteData.aboutPage.description}
+									</p>
+									<p className='py-2 text-base text-navy w-full'>{siteData.aboutPage.why}</p>
+									<p className='py-2 text-base text-navy w-full'>{siteData.aboutPage.learning}</p>
+									<p className='py-2 text-base text-navy w-full'>{siteData.aboutPage.skills}</p>
 								</motion.div>
 
 								<div className='flex items-center justify-between gap-6 pt-8 w-4/5'>

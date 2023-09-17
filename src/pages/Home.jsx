@@ -105,9 +105,10 @@ const Homepage = () => {
 										transition={{ duration: 1 }}
 										whileInView={{ opacity: 1, x: 0 }}
 										viewport={{ once: true }}>
-										👋 Hi there!
+										<p> 👋 Hi there!</p>
+
 										<br />
-										{siteData.homePage.description}
+										<p> {siteData.homePage.description}</p>
 									</motion.div>
 
 									<div className='flex items-center justify-between gap-6 pt-8'>

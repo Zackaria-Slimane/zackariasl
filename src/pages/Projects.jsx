@@ -37,22 +37,15 @@ const Projects = () => {
 										repeat={Infinity}
 									/>
 								</div>
-
 								<motion.div
 									className='py-2 text-base text-navy w-full'
 									initial={{ opacity: 0, x: -200 }}
 									transition={{ duration: 1 }}
 									whileInView={{ opacity: 1, x: 0 }}
 									viewport={{ once: true }}>
-									{siteData.projectsPage.description}
-								</motion.div>
-								<motion.div
-									className='py-2 text-base text-navy w-full'
-									initial={{ opacity: 0, x: -200 }}
-									transition={{ duration: 1 }}
-									whileInView={{ opacity: 1, x: 0 }}
-									viewport={{ once: true }}>
-									{siteData.projectsPage.cta}
+									<p>{siteData.projectsPage.description}</p>
+									<br />
+									<p>{siteData.projectsPage.cta}</p>
 								</motion.div>
 
 								<div className='flex items-center justify-between gap-6 pt-8 w-4/5'>

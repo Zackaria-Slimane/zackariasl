@@ -120,16 +120,6 @@ const siteData = {
 			link: "https://disconnectoconnect.com/",
 			featured: false,
 		},
-		{
-			id: uid(),
-			title: "Drag&Drop board",
-			description: "Drag&drop task board built with native browser api",
-			logo: taskify,
-			tech: vue,
-			linkText: "View Project",
-			link: "https://droptask.netlify.app/",
-			featured: false,
-		},
 	],
 };
 

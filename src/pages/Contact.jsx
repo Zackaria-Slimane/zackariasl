@@ -87,15 +87,9 @@ const Contact = () => {
 									transition={{ duration: 1 }}
 									whileInView={{ opacity: 1, x: 0 }}
 									viewport={{ once: true }}>
-									{siteData.contactPage.description}
-								</motion.div>
-								<motion.div
-									className='py-2 text-base text-navy w-full'
-									initial={{ opacity: 0, x: -200 }}
-									transition={{ duration: 1 }}
-									whileInView={{ opacity: 1, x: 0 }}
-									viewport={{ once: true }}>
-									{siteData.contactPage.cta}
+									<p>{siteData.contactPage.description}</p>
+									<br />
+									<p> {siteData.contactPage.cta}</p>
 								</motion.div>
 
 								<div className='flex items-center justify-between gap-6 pt-8 w-4/5'>
