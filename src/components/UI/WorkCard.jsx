@@ -14,7 +14,7 @@ const Work = () => {
 							whileInView={{ opacity: 1, x: 0 }}
 							viewport={{ once: true }}
 							className='flex flex-wrap  align-middle content-center justify-center sm:justify-between gap-2 mt-4 mb-6'>
-							<p className='underline hover:decoration-wavy font-medium text-darkpink dark:text-cream'>
+							<p className='underline hover:decoration-wavy font-medium text-darkpink dark:text-cream cursor-pointer'>
 								{work.position}
 							</p>
 
