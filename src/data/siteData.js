@@ -8,6 +8,7 @@ import bm from "../assets/featured/beautymall.png";
 import dtc from "../assets/featured/dtc.png";
 import nuxtfolio from "../assets/featured/nuxtfolio.png";
 import echelon from "../assets/featured/echelon.png";
+import gittrackr from "../assets/featured/gittrackr.png";
 
 const uid = () => crypto.randomUUID();
 
@@ -22,7 +23,8 @@ const siteData = {
 		twitter: "https://twitter.com/gitignorer",
 		github: "https://github.com/Zackaria-Slimane",
 		linkedin: "https://www.linkedin.com/in/zackaria-slimane/",
-		resume: "https://drive.google.com/file/d/1Yt4MjyakrTgygayKHfq4YmqobL1SfRDu/view?usp=sharing",
+		resume:
+			"https://drive.google.com/file/d/1Yt4MjyakrTgygayKHfq4YmqobL1SfRDu/view?usp=sharing",
 	},
 
 	homePage: {
@@ -87,6 +89,17 @@ const siteData = {
 			linkText: "View Project",
 			link: "https://zackariasl.ma",
 			featured: false,
+		},
+		{
+			id: uid(),
+			title: "Git tracker - open issues tracker",
+			description:
+				"A dockerized GoLang REST API that festches recent open issues and lists them in a React front",
+			tech: react,
+			logo: gittrackr,
+			linkText: "View Project",
+			link: "https://gittrackr.vercel.app/",
+			featured: true,
 		},
 		{
 			id: uid(),
