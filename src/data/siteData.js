@@ -1,6 +1,7 @@
 import zs from "../assets/logos/zs.png";
 import nuxt from "../assets/techs/nuxticon.png";
 import react from "../assets/techs/reacticon.png";
+import golang from "../assets/techs/golang.png";
 import wordpress from "../assets/techs/wordpressicon.png";
 import coinbend from "../assets/featured/coinbend.png";
 import cvforge from "../assets/featured/cvforge.png";
@@ -9,6 +10,7 @@ import dtc from "../assets/featured/dtc.png";
 import nuxtfolio from "../assets/featured/nuxtfolio.png";
 import echelon from "../assets/featured/echelon.png";
 import gittrackr from "../assets/featured/gittrackr.png";
+import gosql from "../assets/featured/gosql.png";
 
 const uid = () => crypto.randomUUID();
 
@@ -68,6 +70,16 @@ const siteData = {
 			logo: coinbend,
 			linkText: "View Project",
 			link: "https://coinbend.netlify.app/",
+			featured: false,
+		},
+		{
+			id: uid(),
+			title: "Go Docker api starter",
+			description: "Basic starter of a Go API microservice dockerized",
+			tech: golang,
+			logo: gosql,
+			linkText: "View Project",
+			link: "https://github.com/Zackaria-Slimane/go-docker-ms",
 			featured: true,
 		},
 		{
@@ -95,7 +107,7 @@ const siteData = {
 			title: "Git tracker - open issues tracker",
 			description:
 				"A dockerized GoLang REST API that festches recent open issues and lists them in a React front",
-			tech: react,
+			tech: golang,
 			logo: gittrackr,
 			linkText: "View Project",
 			link: "https://gittrackr.vercel.app/",

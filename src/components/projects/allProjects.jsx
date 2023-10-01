@@ -25,7 +25,7 @@ const AllProjects = (props) => {
 			<div className='mx-auto'>
 				<Toggle onChange={ToggleFeatured} checked={isFeatured} />
 			</div>
-			<div className='mx-auto grid md:grid-cols-2 gap-6'>
+			<div className='mx-auto grid md:grid-cols-2 gap-4'>
 				{getProjects.map((project) => (
 					<motion.div
 						initial={{ opacity: 0, x: 200 }}

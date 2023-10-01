@@ -2,12 +2,12 @@ import react from "../assets/techs/reacticon.png";
 import javascript from "../assets/techs/jsicon.png";
 import jquery from "../assets/techs/jquery.png";
 import tailwind from "../assets/techs/tailwindicon.png";
-import bootstrap from "../assets/techs/boot.png";
+import goalng from "../assets/techs/golang.png";
 import nuxt from "../assets/techs/nuxticon.png";
 import vue from "../assets/techs/vueicon.png";
 import supabase from "../assets/techs/supabaseicon.png";
 import figma from "../assets/techs/figmaicon.png";
-import netlify from "../assets/techs/netlifyicon.png";
+import docker from "../assets/techs/docker.png";
 import node from "../assets/techs/nodeicon.png";
 import wordpress from "../assets/techs/wordpressicon.png";
 import shopify from "../assets/techs/shopifyicon.png";
@@ -69,13 +69,13 @@ const Stacks = [
 	},
 	{
 		id: uid(),
-		image: bootstrap,
-		title: "Bootstrap CSS",
+		image: goalng,
+		title: "Golang",
 	},
 	{
 		id: uid(),
-		image: netlify,
-		title: "Netlify",
+		image: docker,
+		title: "Docker",
 	},
 	{
 		id: uid(),
