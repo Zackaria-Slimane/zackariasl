@@ -11,6 +11,7 @@ import nuxtfolio from "../assets/featured/nuxtfolio.png";
 import echelon from "../assets/featured/echelon.png";
 import gittrackr from "../assets/featured/gittrackr.png";
 import gosql from "../assets/featured/gosql.png";
+import unfetch from "../assets/featured/unfetch.png";
 
 const uid = () => crypto.randomUUID();
 
@@ -81,6 +82,16 @@ const siteData = {
 			linkText: "View Project",
 			link: "https://github.com/Zackaria-Slimane/go-docker-ms",
 			featured: true,
+		},
+		{
+			id: uid(),
+			title: "Search image wrapper to bypass watermarks",
+			description: "Search image wrapper , list and download high res images",
+			tech: react,
+			logo: unfetch,
+			linkText: "View Project",
+			link: "https://unfetch.vercel.app/",
+			featured: false,
 		},
 		{
 			id: uid(),
