@@ -34,15 +34,20 @@ function App() {
 				) : (
 					<>
 						<Analytics />
-						<NavBar active={path} setPath={setPath} darkMode={darkMode} setDarkMode={setDarkMode} />
+						<NavBar
+							active={path}
+							setPath={setPath}
+							darkMode={darkMode}
+							setDarkMode={setDarkMode}
+						/>
 						<main>
 							<ToTop />
 							<Routes>
 								<Route path='/' element={<Homepage />} />
-								<Route path='*' element={<NotFound />} />
 								<Route path='/about' element={<About />} />
 								<Route path='/projects' element={<Projects />} />
 								<Route path='/contact' element={<Contact />} />
+								<Route path='*' element={<NotFound />} />
 							</Routes>
 						</main>
 						<Footer />

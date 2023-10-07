@@ -6,7 +6,6 @@ import wordpress from "../assets/techs/wordpressicon.png";
 import coinbend from "../assets/featured/coinbend.png";
 import cvforge from "../assets/featured/cvforge.png";
 import bm from "../assets/featured/beautymall.png";
-import dtc from "../assets/featured/dtc.png";
 import nuxtfolio from "../assets/featured/nuxtfolio.png";
 import echelon from "../assets/featured/echelon.png";
 import gittrackr from "../assets/featured/gittrackr.png";
@@ -17,7 +16,7 @@ const uid = () => crypto.randomUUID();
 
 const siteData = {
 	main: {
-		title: "Zackaria Slimane - Web Developer",
+		title: "Zackaria Slimane - Wev Developer | React | Golang | NodeJS | Vue | Nuxt",
 		name: "Zackaria Slimane",
 		email: "zakaria.slimane@hotmail.fr",
 		logo: zs,
