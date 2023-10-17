@@ -11,12 +11,14 @@ import echelon from "../assets/featured/echelon.png";
 import gittrackr from "../assets/featured/gittrackr.png";
 import gosql from "../assets/featured/gosql.png";
 import unfetch from "../assets/featured/unfetch.png";
+import clitask from "../assets/featured/clitask.png";
 
 const uid = () => crypto.randomUUID();
 
 const siteData = {
 	main: {
-		title: "Zackaria Slimane - Wev Developer | React | Golang | NodeJS | Vue | Nuxt",
+		title:
+			"Zackaria SLIMANE | Full Stack Developer | React | Golang | Docker | Nodejs | Nuxt | Vue.",
 		name: "Zackaria Slimane",
 		email: "zakaria.slimane@hotmail.fr",
 		logo: zs,
@@ -26,13 +28,13 @@ const siteData = {
 		github: "https://github.com/Zackaria-Slimane",
 		linkedin: "https://www.linkedin.com/in/zackaria-slimane/",
 		resume:
-			"https://drive.google.com/file/d/1Yt4MjyakrTgygayKHfq4YmqobL1SfRDu/view?usp=sharing",
+			"https://drive.google.com/file/d/1X3SEKVVXQYEHoVZXWQ45K4WaAx64CHzA/view?usp=sharing",
 	},
 
 	homePage: {
 		title:
-			"Dedicated web developer fluent in JavaScript ES6 and React, crafting seamless digital experiences.",
-		description: `I am a passionate web developer with a laser focus on JavaScript ES6 and the dynamic world of React.
+			"Dedicated full stack developer fluent in and React & Golang, crafting seamless digital experiences.",
+		description: `I am a full stack developer with a laser focus on JavaScript ES6 and the dynamic world of React for the front end and the efficient Golang for the back end.
 		I'm a perpetual learner, a collaborator, and a believer in the power of technology to shape the future.
 		bringing to life seamless, interactive web experiences.`,
 	},
@@ -53,25 +55,15 @@ const siteData = {
 	aboutPage: {
 		title: "Crafting Digital Experiences with Passion and Precision",
 		description:
-			"With a strong foundation in JavaScript ES6 and an artistic touch with React, I craft user-centric websites that blend functionality and aesthetics seamlessly. Beyond the lines of code, I'm a perpetual learner, a collaborator, and a believer in the power of technology to shape the future.",
+			"With a strong foundation in JavaScript , Golang and a modern touch with React, I craft user-centric websites that blend functionality and aesthetics seamlessly. Beyond the lines of code, I'm a perpetual learner, a collaborator, and a believer in the power of technology to shape the future.",
 		why: "Ever since I started my journey in the world of web development, I've been captivated by the power of technology to transform ideas into interactive realities. I thrive on the thrill of crafting dynamic and user-friendly interfaces that seamlessly merge aesthetics with functionality.",
 		learning:
 			"I am often diving into the latest React concepts or exploring new ways to optimize user experiences. Continuous learning is at the heart of what I do, ensuring that I'm always at the forefront of industry trends and best practices.",
 		skills:
-			"My toolbox isn't limited to just JavaScript and React. I'm also well-versed in WordPress, Shopify and Nodejs among other technologies, harnessing their potential to build stunning websites that captivate audiences and drive results. From e-commerce solutions to content management systems, Ive got you covered.",
+			"My toolbox isn't limited to just JavaScript and React & Golang. I'm also well-versed in WordPress, Shopify and Nodejs among other technologies, harnessing their potential to build stunning websites that captivate audiences and drive results. From e-commerce solutions to content management systems, Ive got you covered.",
 	},
 
 	projects: [
-		{
-			id: uid(),
-			title: "Coinbend",
-			description: "Modern landing page for a budgeting app",
-			tech: nuxt,
-			logo: coinbend,
-			linkText: "View Project",
-			link: "https://coinbend.netlify.app/",
-			featured: false,
-		},
 		{
 			id: uid(),
 			title: "Go Docker api starter",
@@ -82,6 +74,7 @@ const siteData = {
 			link: "https://github.com/Zackaria-Slimane/go-docker-ms",
 			featured: true,
 		},
+
 		{
 			id: uid(),
 			title: "unFetch - Search image wrapper",
@@ -104,12 +97,22 @@ const siteData = {
 		},
 		{
 			id: uid(),
-			title: "Nuxt portfolio",
-			description: "Old version of my website built using Vue & Nuxt 3",
-			tech: nuxt,
-			logo: nuxtfolio,
+			title: "Cv forge",
+			description: "A resume maker based on a professionnal template.",
+			logo: cvforge,
+			tech: react,
 			linkText: "View Project",
-			link: "https://zackariasl.ma",
+			link: "https://cvforge.vercel.app/",
+			featured: true,
+		},
+		{
+			id: uid(),
+			title: "Go CLI notes app",
+			description: "Golang CLI tasks application",
+			tech: golang,
+			logo: clitask,
+			linkText: "View Project",
+			link: "https://github.com/Zackaria-Slimane/gotask",
 			featured: false,
 		},
 		{
@@ -125,22 +128,32 @@ const siteData = {
 		},
 		{
 			id: uid(),
-			title: "Cv forge",
-			description: "A resume maker based on a professionnal template.",
-			logo: cvforge,
-			tech: react,
-			linkText: "View Project",
-			link: "https://cvforge.vercel.app/",
-			featured: true,
-		},
-		{
-			id: uid(),
 			title: "BeautyMall",
 			description: "E-commerce website  - online beauty and drugstore",
 			logo: bm,
 			tech: wordpress,
 			linkText: "View Project",
 			link: "https://beautymall.ma/",
+			featured: false,
+		},
+		{
+			id: uid(),
+			title: "Coinbend",
+			description: "Modern landing page for a budgeting app",
+			tech: nuxt,
+			logo: coinbend,
+			linkText: "View Project",
+			link: "https://coinbend.netlify.app/",
+			featured: false,
+		},
+		{
+			id: uid(),
+			title: "Nuxt portfolio",
+			description: "Old version of my website built using Vue & Nuxt 3",
+			tech: nuxt,
+			logo: nuxtfolio,
+			linkText: "View Project",
+			link: "https://zackariasl.ma",
 			featured: false,
 		},
 	],

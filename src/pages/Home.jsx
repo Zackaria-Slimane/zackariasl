@@ -68,7 +68,9 @@ const Homepage = () => {
 				</Helmet>
 				<div className='page-content'>
 					<div className='max-w-[1000px] m-auto  sm:w-[90dvw] sm:px-8'>
-						<div id='photo-div' className='flex justify-start items-center pt-16 sm:py-12 '>
+						<div
+							id='photo-div'
+							className='flex justify-start items-center pt-16 sm:py-12 '>
 							<div style={logoStyle}>
 								<Logo width={logoSize} link={false} />
 							</div>
@@ -78,20 +80,22 @@ const Homepage = () => {
 							<div className='flex justify-between items-center'>
 								<div className='flex flex-col items-center sm:items-start p-4 max-w-[660px]'>
 									<div className='text-3xl sm:text-4xl text-[#27272a] font-jetBrain font-bold w-full my-6 text-clip'>
-										Dedicated web developer with a strong foundation in JavaScript, crafting
-										seamless digital experiences with
+										Dedicated full stack developer crafting seamless digital experiences
+										with
 										<TypeAnimation
 											className='bg-cream rounded-sm py-0 px-2 ml-2 text-3xl'
 											sequence={[
 												"React",
+												1500,
+												"Golang",
+												1500,
+												"Docker",
 												1500,
 												"Vue",
 												1500,
 												"Nuxt",
 												1500,
 												"Wordpress",
-												1500,
-												"Shopify",
 												1500,
 											]}
 											speed={30}
@@ -114,7 +118,7 @@ const Homepage = () => {
 									<div className='flex items-center justify-between gap-6 pt-8'>
 										<div>
 											<a
-												href='https://drive.google.com/file/d/1Yt4MjyakrTgygayKHfq4YmqobL1SfRDu/view?usp=sharing'
+												href='https://drive.google.com/file/d/1X3SEKVVXQYEHoVZXWQ45K4WaAx64CHzA/view?usp=sharing'
 												target='_blank'
 												rel='noreferrer noopener'
 												className='flex items-center justify-center px-6 py-2 border-2 hover:border-cream border-navy bg-transparent transition-colors hover:bg-darkpink rounded-lg hover:text-white shadow-lg hover:scale-110'>
@@ -125,17 +129,26 @@ const Homepage = () => {
 											</a>
 										</div>
 										<div>
-											<a href={siteData.socials.twitter} target='_blank' rel='noreferrer noopener'>
+											<a
+												href={siteData.socials.twitter}
+												target='_blank'
+												rel='noreferrer noopener'>
 												<FaTwitter className='text-navy text-xl hover:text-darkpink hover:scale-110' />
 											</a>
 										</div>
 										<div>
-											<a href={siteData.socials.github} target='_blank' rel='noreferrer noopener'>
+											<a
+												href={siteData.socials.github}
+												target='_blank'
+												rel='noreferrer noopener'>
 												<FaGithub className='text-navy text-xl hover:text-darkpink hover:scale-110' />
 											</a>
 										</div>
 										<div>
-											<a href={siteData.socials.linkedin} target='_blank' rel='noreferrer noopener'>
+											<a
+												href={siteData.socials.linkedin}
+												target='_blank'
+												rel='noreferrer noopener'>
 												<FaLinkedinIn className='text-navy text-xl hover:text-darkpink hover:scale-110' />
 											</a>
 										</div>

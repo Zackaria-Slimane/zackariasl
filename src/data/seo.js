@@ -2,25 +2,29 @@ const SEO = [
 	{
 		page: "home",
 		description:
-			"👋 Hi there! i am a passionate web developer with a laser focus on JavaScript ES6 and the dynamic world of React. With a cup of coffee in one hand and lines of code in the other, I bring to life seamless, interactive web experiences that not only meet user expectations but exceed them.",
+			"👋 Hi there! i am a passionate full stack developer with a laser focus on JavaScript ES6 and the dynamic world of React. With a cup of coffee in one hand and lines of code in the other, I bring to life seamless, interactive web experiences that not only meet user expectations but exceed them.",
 		keywords: [
 			"Zackaria slimane",
 			"Zackaria SL",
 			"Web developer",
+			"Full Stack developer",
 			"Frontend developer",
 			"React developer",
+			"Golang developer",
 		],
 	},
 	{
 		page: "about",
 		description:
-			"With a strong foundation in JavaScript ES6 and an artistic touch with React, I craft user-centric websites that blend functionality and aesthetics seamlessly. Beyond the lines of code, I'm a perpetual learner, a collaborator, and a believer in the power of technology to shape the future. Join me as I traverse the ever-evolving landscape of web development.",
+			"With a strong foundation in JavaScript & Golang and a modern touch with React, I craft user-centric websites that blend functionality and aesthetics seamlessly. Beyond the lines of code, I'm a perpetual learner, a collaborator, and a believer in the power of technology to shape the future. Join me as I traverse the ever-evolving landscape of web development.",
 		keywords: [
 			"Zackaria slimane",
 			"Zackaria SL",
 			"Web developer",
+			"Full Stack developer",
 			"Frontend developer",
 			"React developer",
+			"Golang developer",
 		],
 	},
 	{
@@ -33,6 +37,8 @@ const SEO = [
 			"Web developer",
 			"Frontend developer",
 			"React developer",
+			"Full Stack developer",
+			"Golang developer",
 		],
 	},
 
@@ -46,6 +52,8 @@ const SEO = [
 			"Web developer",
 			"Frontend developer",
 			"React developer",
+			"Full Stack developer",
+			"Golang developer",
 		],
 	},
 ];
