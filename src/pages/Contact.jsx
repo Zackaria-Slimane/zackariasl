@@ -149,7 +149,7 @@ const Contact = () => {
 							</div>
 						</div>
 
-						<div className='bg-white mx-auto my-10 rounded-lg shadow-lg max-w-[500px]'>
+						<div className='bg-powder mx-auto my-10 rounded-lg shadow-lg max-w-[500px]'>
 							<form
 								className='text-left w-full p-6'
 								content='formdata'
@@ -194,7 +194,7 @@ const Contact = () => {
 								<div className='flex items-center justify-center'>
 									<button className='group hover:scale-110 cursor-pointer flex items-center justify-center mt-8 border-2 hover:border-transparent border-navy bg-navy transition-colors text-cream py-2 rounded-lg  dark:hover:text-navy shadow-lg'>
 										<p className='text-sm md:text-lg mx-2 text-cream font-light'>Send</p>
-										<span>
+										<span className='animate-pulse'>
 											<FaArrowRightFromBracket className='text-md font-semibold mx-4' />
 										</span>
 									</button>

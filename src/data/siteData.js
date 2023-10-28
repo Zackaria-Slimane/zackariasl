@@ -146,16 +146,6 @@ const siteData = {
 			link: "https://coinbend.netlify.app/",
 			featured: false,
 		},
-		{
-			id: uid(),
-			title: "Nuxt portfolio",
-			description: "Old version of my website built using Vue & Nuxt 3",
-			tech: nuxt,
-			logo: nuxtfolio,
-			linkText: "View Project",
-			link: "https://zackariasl.ma",
-			featured: false,
-		},
 	],
 };
 

@@ -10,9 +10,11 @@ const TechStack = () => {
 				transition={{ duration: 1 }}
 				whileInView={{ opacity: 1, x: 0 }}
 				viewport={{ once: true }}
-				className='grid gap-8 grid-cols-3 md:grid-cols-5 md:py-12'>
+				className='grid gap-8 grid-cols-3 md:grid-cols-6 md:py-12'>
 				{stacks.map(({ id, image, title }) => (
-					<div key={id} className='flex flex-col align-middle justify-center items-center'>
+					<div
+						key={id}
+						className='flex flex-col align-middle justify-center items-center'>
 						<div
 							className='flex flex-col items-center justify-center p-5 shadow-mg rounded-lg object-cover w-24 h-24 duration-300 ease-in-out bg-white'
 							role='img'

@@ -9,7 +9,7 @@ const NavBar = ({ active, setPath }) => {
 						<li
 							className={
 								active === "/"
-									? "font-[bold] text-sm text-darkpink overline decoration-darkpink decoration-2 hover:underline "
+									? "font-[bold] text-sm text-darkpink underline underline-offset-4 decoration-darkpink decoration-2 hover:underline "
 									: "font-[bold] text-sm decoration-darkpink decoration-2 hover:underline"
 							}>
 							<Link
@@ -22,7 +22,7 @@ const NavBar = ({ active, setPath }) => {
 						<li
 							className={
 								active === "/about"
-									? "font-[bold] text-sm text-darkpink overline decoration-darkpink decoration-2 hover:underline"
+									? "font-[bold] text-sm text-darkpink underline underline-offset-4 decoration-darkpink decoration-2 hover:underline"
 									: "font-[bold] text-sm decoration-darkpink decoration-2 hover:underline"
 							}>
 							<Link
@@ -35,7 +35,7 @@ const NavBar = ({ active, setPath }) => {
 						<li
 							className={
 								active === "/projects"
-									? "font-[bold] text-sm text-darkpink overline decoration-darkpink decoration-2 hover:underline"
+									? "font-[bold] text-sm text-darkpink underline underline-offset-4 decoration-darkpink decoration-2 hover:underline"
 									: "font-[bold] text-sm decoration-darkpink decoration-2 hover:underline"
 							}>
 							<Link
@@ -49,7 +49,7 @@ const NavBar = ({ active, setPath }) => {
 						<li
 							className={
 								active === "/contact"
-									? "font-[bold] text-sm text-darkpink overline decoration-darkpink decoration-2 hover:underline"
+									? "font-[bold] text-sm text-darkpink underline underline-offset-4 decoration-darkpink decoration-2 hover:underline"
 									: "font-[bold] text-sm decoration-darkpink decoration-2 hover:underline"
 							}>
 							<Link
