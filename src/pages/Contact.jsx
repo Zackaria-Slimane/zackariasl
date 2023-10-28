@@ -13,6 +13,7 @@ import {
 
 import siteData from "../data/siteData";
 import SEO from "../data/seo";
+import { ContactCards } from "../components/UI/ContactCards";
 
 const Contact = () => {
 	const nameRef = useRef(null);
@@ -67,14 +68,14 @@ const Contact = () => {
 				</Helmet>
 				<>
 					<Toaster />
-					<div className='max-w-[1000px] mt-[4em] sm:mt-[8em] mx-auto sm:w-[90dvw] sm:px-8 bg-powder'>
-						<div className='flex justify-between items-center'>
-							<div className='flex flex-col items-center sm:items-start p-4 max-w-[660px]'>
+					<div className='max-w-[800px] mt-[4em] sm:mt-[8em] mx-auto sm:w-[90dvw] sm:px-8 bg-powder'>
+						<div className='flex justify-center items-center'>
+							<div className='flex flex-col items-center sm:items-start p-4'>
 								<div className='text-3xl sm:text-4xl text-[#27272a] font-jetBrain font-bold w-full my-6 text-clip'>
-									Let's Turn Ideas into Reality
+									Let's Turn your Ideas into reality with
 									<TypeAnimation
 										className='bg-cream rounded-sm py-0 px-2 ml-2 text-3xl'
-										sequence={["Vision", 1500, "Collaboration", 1500, "Success", 1500]}
+										sequence={["Owrnership.", 1500, "Collaboration.", 1500]}
 										speed={30}
 										wrapper='span'
 										repeat={Infinity}
@@ -92,59 +93,8 @@ const Contact = () => {
 									<p> {siteData.contactPage.cta}</p>
 								</motion.div>
 
-								<div className='flex items-center justify-between gap-6 pt-8 w-4/5'>
-									<div className='flex justify-between items-center gap-8'>
-										<a
-											href='https://drive.google.com/file/d/1X3SEKVVXQYEHoVZXWQ45K4WaAx64CHzA/view?usp=sharing'
-											target='_blank'
-											rel='noreferrer noopener'
-											className='flex items-center justify-center px-6 py-2 border-2 hover:border-cream border-navy bg-transparent transition-colors hover:bg-darkpink rounded-lg hover:text-white shadow-lg hover:scale-110'>
-											<span>
-												<FaFileLines className='text-sm md:text-lg mx-2 font-light' />
-											</span>
-											<p className='text-sm md:text-lg mx-2 font-light'>Resume</p>
-										</a>
-										<div className='flex items-center justify-between gap-6'>
-											<div>
-												<a
-													href={siteData.socials.twitter}
-													target='_blank'
-													rel='noreferrer noopener'>
-													<FaTwitter className='text-navy text-xl hover:text-darkpink hover:scale-110' />
-												</a>
-											</div>
-											<div>
-												<a
-													href={siteData.socials.github}
-													target='_blank'
-													rel='noreferrer noopener'>
-													<FaGithub className='text-navy text-xl hover:text-darkpink hover:scale-110' />
-												</a>
-											</div>
-											<div>
-												<a
-													href={siteData.socials.linkedin}
-													target='_blank'
-													rel='noreferrer noopener'>
-													<FaLinkedinIn className='text-navy text-xl hover:text-darkpink hover:scale-110' />
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							{/* image logo */}
-							<div className='hidden sm:flex items-start sm:min-w-[340px] sm:w-[80dvw]'>
-								<div className='max-w-[250px] m-auto'>
-									<div className='rotate-6'>
-										<img
-											srcSet={siteData.main.logo}
-											src={siteData.main.logo}
-											alt='intitials logo'
-											className='w-full object-cover mx-auto'
-										/>
-									</div>
+								<div className='mx-auto'>
+									<ContactCards />
 								</div>
 							</div>
 						</div>
